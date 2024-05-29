@@ -1,0 +1,23 @@
+h2 {
+  justify-content: center;
+  text-align: center;
+  height: 60px;
+}
+
+h3 {
+  justify-content: center;
+  text-align: center;
+  height: 60px;
+}
+
+li {
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
+
+button {
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+}
