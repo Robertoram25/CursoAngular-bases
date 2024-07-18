@@ -7,15 +7,14 @@
     <h3 class="d-flex">No se ha borrado nada</h3>
   </ng-template>
 
+  <ul class="d-flex mt-2 list-group">
+    <li *ngFor="let name of heroNames"
+        class="d-flex list-group-item">{{ name }}</li>
+  </ul>
 
   <button class="d-flex mb-2"
     *ngIf="heroNames.length > 0"
     (click)="removeLastHero() "class="btn btn-outline-danger">
     Borrar último héroe
   </button>
-
-  <ul class="d-flex mt-2 list-group">
-    <li *ngFor="let name of heroNames"
-        class="d-flex list-group-item">{{ name }}</li>
-  </ul>
 </div>
